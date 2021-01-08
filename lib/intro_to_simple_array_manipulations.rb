@@ -2,7 +2,7 @@ def using_push(arr, str)
   arr.push(str)
 end 
 
-def using_pop
+def using_pop(arr)
   arr.pop 
 end
 
