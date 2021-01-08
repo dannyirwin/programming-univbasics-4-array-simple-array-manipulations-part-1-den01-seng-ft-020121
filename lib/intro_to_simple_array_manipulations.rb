@@ -4,7 +4,6 @@ end
 
 def using_pop
   arr.pop 
-  arr
 end
 
 def pop_with_args
