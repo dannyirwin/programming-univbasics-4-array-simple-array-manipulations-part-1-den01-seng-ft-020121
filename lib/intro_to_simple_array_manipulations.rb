@@ -3,21 +3,21 @@ def using_push(arr, str)
 end 
 
 def using_pop(arr)
-  arr.pop 
+  arr.pop
 end
 
-def pop_with_args()
-
+def pop_with_args(arr, int)
+  arr.pop(int)
 end 
 
 def using_unshift(arr, str)
   arr.unshift(str)
 end
 
-def using_shift
-  
+def using_shift(arr)
+  arr.shift
 end
 
-def shift_with_args
-  
+def shift_with_args(arr, int)
+  arr.shift(int)
 end
